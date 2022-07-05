@@ -1,15 +1,16 @@
 import React from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { AiFillFacebook, AiFillGithub} from "react-icons/ai";
-import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { ButtonContact } from '../components/Button';
 import { ButtonChat } from '../components/Button/ButtonChat';
 import Link from 'next/link';
+import { ToogleThemeButton } from '../components/ButtonTema/ToogleThemeButton';
+import type { NextPage } from 'next'
+import { Flex, Text } from '@chakra-ui/react';
 
 
-export default function Home() {
+const Home: NextPage = function () {
   return (
     <div className={styles.container}>
       <Head>
@@ -20,42 +21,65 @@ export default function Home() {
 
       <main className={styles.main}>
 
-          <div className={styles.content}>
+        <div className={styles.content}>
+          
 
-            <Header />
-              
-              <div className={styles.signSocial}>
-                <Link  href="https://www.facebook.com/colabdevs-106903418296797" >
-                  <a target="_blank" > Facebook </a>
-                </Link>
+          <Header />
 
-                <Link href="https://www.instagram.com/colabdevs/">
-                  <a target="_blank"> Instagram  </a>
-                </Link>
-                
-                <Link href="https://www.youtube.com/channel/UCGhZ5sH2SbSjMQ7edb7Cb_g" >
-                  <a target="_blank"> Youtube </a>
-                </Link>
-                
-                <Link  href="https://www.linkedin.com/in/colab-devs-7b41b3244/">
-                  <a target="_blank"> Linkdin </a>
-                </Link>
-                
-              
-              </div>
+          <div className={styles.signSocial}>
 
+          <Flex
+            width={11}
+            align="center"
+            justify="center"
+            flexDirection="column"
+            color="#0c74c9"
             
-            
-              <ButtonChat />
-            
-            
+          >
+              <Text
+                  color="success.900"
+                  fontSize="4xl" 
+                  fontWeight="bold"
+                  textAlign="center"
+              >
+              </Text>
+              <ToogleThemeButton />
+         </Flex>
+
+
+
+            <Link href="https://www.facebook.com/colabdevs-106903418296797">
+              <a target="_blank"> Facebook </a>
+            </Link>
+
+            <Link href="https://www.instagram.com/colabdevs/">
+              <a target="_blank"> Instagram  </a>
+            </Link>
+
+            <Link href="https://www.youtube.com/channel/UCGhZ5sH2SbSjMQ7edb7Cb_g">
+              <a target="_blank"> Youtube </a>
+            </Link>
+
+            <Link href="https://www.linkedin.com/in/colab-devs-7b41b3244/">
+              <a target="_blank"> Linkdin </a>
+            </Link>
+
+
           </div>
+
+
+
+          <ButtonChat />
+
+
+        </div>
 
       </main>
 
-           
+
     </div>
   );
 };
 
 
+export default Home

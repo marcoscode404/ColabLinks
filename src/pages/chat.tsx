@@ -3,12 +3,13 @@ import { UtterancesComments } from '../components/UtterancesComments';
 import { Footer } from '../components/Footer';
 import styles from '../styles/Chat.module.css';
 import { ButtonHome } from '../components/ButtonReturnHome';
+import { ToogleThemeButton } from '../components/ButtonTema/ToogleThemeButton';
 
 
 export default function FourOhFour() {
   return (
     <div className={styles.container}>
-        
+         <ToogleThemeButton />
         <h1 className={styles.titulo}>deixe seu comentário</h1>
 
        <UtterancesComments

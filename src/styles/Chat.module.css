@@ -10,7 +10,7 @@
 .titulo {
     margin: 50px auto;
     color: var(--green);
-    background: #fff;
     padding: 1rem;
-    
+    text-align: center;
+    font-size: 1.65rem;
 }
