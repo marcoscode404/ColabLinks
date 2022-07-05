@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.main h1 {
+    color: var(--white-300);
+}
+
+.image {
+    margin-top: 2rem;
+}
+
+.rotate {
+    margin-top: 20rem;
+    animation: rotation 1.5s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+      top: -5%;
+    }
+    50% {
+      bottom: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+
+  }

@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%; 
+    color: var(--white);
+    text-align: center;
+    background: var(--green);
+    padding: 1rem;
+    width: 20rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    margin: auto;
+    transition: 1s;
+  
+   
+    
+}
+
+.button:hover{
+    filter: brightness(1.1);
+}

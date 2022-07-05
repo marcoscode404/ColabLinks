@@ -1,0 +1,16 @@
+.contact {
+  color: var(--white);
+  background: var(--green);
+  padding: 1rem;
+  width: 90%;
+  border-radius: .5rem;
+  margin: 20px 0 1px ;
+  transition: .5s;
+  font-size: 1.1rem;
+  color: var(--white);
+}
+
+.contact:hover {
+  filter: brightness(1.1);
+  
+}
