@@ -31,7 +31,7 @@ type UtterancesCommentsProps = {
           }
           const scriptElement = document.createElement('script');
           scriptElement.src = 'https://utteranc.es/client.js';
-          scriptElement.setAttribute('repo', 'marcoscode404/marcoslinksoficial02');
+          scriptElement.setAttribute('repo', 'marcoscode404/ColabLinks');
           scriptElement.setAttribute('issue-term', 'pathname');
           scriptElement.setAttribute('label', label);
           scriptElement.setAttribute('theme', 'dark-blue');
