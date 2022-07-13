@@ -1,6 +1,7 @@
 https://colab-links.vercel.app/
 ---------------------------------------------------------------------------------------------
-![screencapture-colab-links-vercel-app-2022-07-13-17_57_21](https://user-images.githubusercontent.com/51343240/178843868-61afe3b8-8022-44eb-8b91-10056adbefbf.png)
+
+![screencapture-colab-links-vercel-app-2022-07-13-18_00_25](https://user-images.githubusercontent.com/51343240/178844191-0c57d934-8926-4ec0-b15b-336ee513395a.png)
 
 
 ![screencapture-colab-links-vercel-app-2022-07-13-17_57_21](https://user-images.githubusercontent.com/51343240/178843791-b5922275-22fd-4efa-8674-b1204f68a6e4.png)
